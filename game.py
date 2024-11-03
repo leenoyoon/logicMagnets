@@ -5,6 +5,7 @@ class Game:
         self.state = initial_state
         self.history = [(initial_state, "Initial state")]
 
+    #test
     def is_within_bounds(self, state, x, y):
         return 0 <= x < state.rows and 0 <= y < state.cols
 
